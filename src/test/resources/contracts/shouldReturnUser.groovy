@@ -10,5 +10,8 @@ Contract.make {
     response {
         status OK()
         body(["id": 2, "firstName": "Adam"])
+        headers {
+            contentType(applicationJson())
+        }
     }
 }

@@ -9,6 +9,6 @@ Contract.make {
     }
     response {
         status OK()
-        body(java.util.List.of(["id": 1, "firstName": "Adam"], ["id":2, "firstName": anyNonBlankString()]))
+        body(List.of(["id": 1, "firstName": "Adam"], ["id":2, "firstName": anyNonBlankString()]))
     }
 }
